@@ -1,0 +1,58 @@
+{
+  "id": "2117818",
+  "name": "resume",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4499382",
+      "name": "自我评价",
+      "font_class": "ziwopingjia",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4815511",
+      "name": "评价",
+      "font_class": "pingjia",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "6446865",
+      "name": "技能",
+      "font_class": "jineng",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "8105603",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10635977",
+      "name": "项目",
+      "font_class": "xiangmu",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "12304121",
+      "name": "博客",
+      "font_class": "boke",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "13585541",
+      "name": "难易程度",
+      "font_class": "nanyichengdu",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
