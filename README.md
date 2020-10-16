@@ -1,21 +1,45 @@
 # vue-resume
 
-> online-resume
+## 预览链接
 
-## Build Setup
+[在线简历](https://zhangxq2019.github.io/resume/dist/index.html#/)
 
-``` bash
-# install dependencies
-npm install
+## 设计图
 
-# serve with hot reload at localhost:8080
-npm run dev
+![图](/src/assets/blog-img/design.png)
 
-# build for production with minification
-npm run build
+## 需求
 
-# build for production and view the bundle analyzer report
-npm run build --report
+**实现点击侧边栏导航，主页面跳转到相应页面**
+
+方法： 将路由都用right命名，再以`<route-link to="">` 指定目标地址，点击导航主页面切换为目标地址
+
+```js
+ routes: [
+        {
+          path: '/',
+          name: 'me',
+          components: {
+            right: me
+          }
+        },
+        {
+          path: '/skill',
+          name: 'skill',
+          components: {
+            right: skill
+          }
+        },
+        {
+          path: '/project',
+          name: 'project',
+          components: {
+            right: project
+          }
+        }
+      ]
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 参考
+
+[vue-router](https://juejin.im/post/6844904164259020814)——我自己写的学习笔记
